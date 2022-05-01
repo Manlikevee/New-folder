@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+    min-height: 100vh;
+}
+
+.boardseatsidebar{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.boardseatnavlinks{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    gap: 10px;
+
+}
+
+.bsnavsvgicon{
+    width: 20%;
+}
+
+.bsnavtext{
+    width: 100%;
+    text-align: start;
+}
+
+.bslinkssection{
+    margin-top: 40px;
+}
+
+.bsnavlink{
+    padding: 13px;
+    text-decoration: none !important;
+    color: rgba(66, 66, 67, 1);
+}
+
+.bsnavlink:hover{
+    background-color: #a92f41;
+    color: white;
+    border-radius: 10px;
+}
+
+.active_link{
+    background-color: #a92f41;
+    color: white;
+    border-radius: 10px;   
+}
+
+.bslinkssectiondivider{
+    margin-bottom: 30px;
+}
+
